@@ -3,6 +3,10 @@
 	class Car{
 		public $carmodel;
 		
+		function __construct(){
+			echo "<h1>Welcome!</h1>";
+		}
+		
 		//Method of a Class
 		public function Audi($model){
 			$this->carmodel=$model;

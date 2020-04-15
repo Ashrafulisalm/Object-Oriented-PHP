@@ -18,8 +18,9 @@
 			return $a/$b;
 		}
 	}
-	
+	//Defining Another class
 	class AdvancedCalculator{
+		//Method of class
 		function fact($a){
 			$res=1;
 			if($a==0)
@@ -33,6 +34,7 @@
 			return $res;
 		}
 	}
+	
 	//Creationg object 
 	$cal=new Calculator;
 	//Calling method of a object
