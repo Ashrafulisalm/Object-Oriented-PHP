@@ -42,6 +42,7 @@
 	echo "Subtraction is:".$cal->sub(3,6)."<br>";
 	echo "Multiplycation is:".$cal->mul(3,6)."<br>";
 	echo "Dicision is:".$cal->div(3,6)."<br>";
+	//Creationg object of class
 	$adcal=new AdvancedCalculator;
 	echo "Factorial is:".$adcal->fact(5);
 ?>

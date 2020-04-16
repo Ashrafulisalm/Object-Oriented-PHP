@@ -2,7 +2,7 @@
 	//Defining a class-(Used to define new Datatype)
 	class Car{
 		public $carmodel;
-		
+		//Constructor that will acll automatically when object created
 		function __construct(){
 			echo "<h1>Welcome!</h1>";
 		}
